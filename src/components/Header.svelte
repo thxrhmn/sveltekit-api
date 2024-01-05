@@ -1,4 +1,4 @@
-<div class="navbar bg-base-100">
+<div class="navbar bg-base-200 mb-10">
 	<div class="flex-none">
 		<button class="btn btn-square btn-ghost">
 			<svg
@@ -18,10 +18,16 @@
 	<div class="flex-1">
 		<a href="/" class="btn btn-ghost normal-case text-xl">ZtorRr</a>
 	</div>
-    <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
-    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-        <li><a href="/detail">Item 1</a></li>
-    </ul>
+	<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+	<!-- <ul
+		tabindex="0"
+		class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+	>
+		<li><a href="/detail">Item 1</a></li>
+	</ul> -->
+	<div class="form-control">
+		<input type="text" placeholder="Search" class="input input-bordered w-16 md:w-auto" />
+	</div>
 	<div class="flex-none">
 		<button class="btn btn-square btn-ghost">
 			<svg
@@ -37,5 +43,11 @@
 				/></svg
 			>
 		</button>
+	</div>
+	<div class="avatar">
+		<div class="w-10 rounded-full">
+			<!-- svelte-ignore a11y-missing-attribute -->
+			<img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+		</div>
 	</div>
 </div>
